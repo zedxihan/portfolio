@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonts.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Profile Card UI</title>
+</head>
+<body>
+    <!--Card-->
+    <div class="card" data-state="#landing">
+    <!--Card Header-->
+    <div class="card-header"> </div>
+    <!--Card Main-->
+    <div class="card-main">
+        <!--Landing Section-->
+    <div class="card-section is-active" id="landing">
+    <div class="card-content">
+        <h1 class="full-name">zedxihan</h1>
+        <h2 class="job-tittle">19, HE/HIM, No Diddy</h2>
+        <h2 class="card-subtitle">About</h2>
+        <p class="card-dec">Just another retarded teenager. Generational hater. Owned by nobody<br>Anime | Music | Web3 | Chill</p>
+    </div>
+        <div class="card__social" id="card-social">
+        <div class="card__social-control">
+        <div class="card__social-toggle" id="card-toggle">
+            <i class="fa icon-add"></i>
+        </div>
+
+        <span class="card__social-text">My Social Networks</span>
+
+        <ul class="card__social-list">
+            <a href="#" class="card__social-link">
+                <i class="fa icon-x-twitter"></i>
+            </a>
+            <a href="#" class="card__social-link">
+                <i class="fa icon-github"></i>
+            </a>
+            <a href="#" class="card__social-link">
+                <i class="fa icon-discord"></i>
+            </a>
+            <a href="#" class="card__social-link">
+                <i class="fa icon-spotify"></i>
+            </a>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <!--About Section-->
+    <div class="card-section" id="about">
+    <!--Card Content-->
+    <div class="card-content">
+    <h2 class="card-subtitle" id="about-sub">chill bruv</h2>
+    <!--Card Timeline-->
+    <div class="card-timeline">
+        <!---->
+        <div class="card-item" data-no="!001">
+            <div class="card-item-title">Anime</div>
+            <div class="card-item-desk">ATTACK ON TITAN fan🔥. Code Geass, Steins Gate, BSD, FMAB, COTE, MT</div>
+        </div>
+        <!---->
+        <div class="card-item" data-no="!002">
+            <div class="card-item-title">Football</div>
+            <div class="card-item-desk"
+                >Manchester United for life | CR7 🥀</div
+            >
+        </div>
+        <!---->
+        <div class="card-item" data-no="!003">
+            <div class="card-item-title">Music</div>
+            <div class="card-item-desk"
+                >Rap, Hiphop, R&B, Reggae and Soul.
+                <br>Metro, Future, DBE, Drake, Cole</div
+            >
+        </div>
+        <!---->
+        <div class="card-item" data-no="!004">
+            <div class="card-item-title">Anything Else?</div>
+            <div class="card-item-desk">Sleep,  Food, Web3, Depression,  ADHD</div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--Contact Section-->
+    <div class="card-section" id="contact">
+    <!--Card Content-->
+    <div class="card-content">
+    <h2 class="card-subtitle" id="contact-sub">contact</h2>
+    <!--Card Wrapper Content-->
+    <div class="card-wrapper-content">
+        <!---->
+        <p>Here are my active socials</p>
+        <a href="#"><i class="fa icon-instagram fa-2x fa-fw"></i
+        ></a>
+        <a href="#"><i class="fa icon-reddit fa-2x fa-fw"></i
+        ></a>
+        <a href="#"><i class="fa icon-spotify-1 fa-2x fa-fw"></i
+        ></a>
+        <a href="#"><i class="fa icon-trakt fa-2x fa-fw"></i
+        ></a>
+        <a href="#"><i class="fa icon-anilist fa-2x fa-fw"></i
+        ></a>
+        <a href="#"><i class="fa icon-riotgames fa-2x fa-fw"></i
+        ></a>
+        <p>Get connected!</p>
+        <!---->
+        <button class="contact-me">follow me</button>
+    </div>
+    </div>
+    </div>
+        <!--Card Buttons-->
+    <div class="card-buttons">
+        <button data-section="#landing" class="is-active">landing</button>
+        <button data-section="#about">about</button>
+        <button data-section="#contact">contact</button>
+    </div>
+    </div>
+    </div>
+    <!---->
+    <script src="./app.js"></script>
+</body>
+</html>
